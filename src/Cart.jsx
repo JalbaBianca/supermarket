@@ -30,8 +30,8 @@ export default function Cart({ cart }) {
         .redirectToCheckout({
           lineItems: lineItems,
           mode: "payment",
-          successUrl: "http://localhost:5173/",
-          cancelUrl: "http://localhost:5173/",
+          successUrl: "https://jalbabianca.github.io/supermarket/",
+          cancelUrl: "https://jalbabianca.github.io/supermarket/",
           customerEmail: email,
         })
         .then((response) => {
