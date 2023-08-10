@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { useState, useEffect } from "react";
+import Button from "./Button";
 
 export default function Navbar(props) {
   const [isDarkTheme,  setIsDarkTheme] = useState (false);
